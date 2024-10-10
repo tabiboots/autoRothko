@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "autoRothko",
+  "description": "Turn any website into a work of abstract art.",
+  "version": "2.1.0",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "autorothko2.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "rothko.png"
+  }
+}

@@ -1,0 +1,19 @@
+body {
+    width: 250px;
+    height: auto;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+.slider {
+    width: 80%;
+}
+
+div {
+    margin-bottom: 15px;
+}
